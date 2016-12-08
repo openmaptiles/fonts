@@ -13,10 +13,10 @@ Your current Mapbox GL Style JSON configuration for `glyphs` will look like this
 "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
 ```
 
-In order to use the fonts without a Mapbox API key edit your Mapbox GL Style JSON and change the endpoint for `glyphs` to `http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf`.
+In order to use the fonts without a Mapbox API key edit your Mapbox GL Style JSON and change the endpoint for `glyphs` to `http://fonts.openmaptiles.org/{fontstack}/{range}.pbf`.
 
 ```javascript
-"glyphs": "http://fonts.openmaptiles.ch/{fontstack}/{range}.pbf",
+"glyphs": "http://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
 ```
 
 ## Supported Font Families
