@@ -29,6 +29,20 @@ The following fonts that are available in Mapbox Studio are supported.
 * Roboto
 * Metropolis
 
+## Package the Fonts
+
+Install [genfontgl](https://github.com/sabas/genfontgl).
+
+```
+npm install genfontgl
+```
+
+Generate fonts.
+
+```
+./generate.sh
+```
+
 ## Font License
 
 Please mind the license of the original fonts.
