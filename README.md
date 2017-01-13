@@ -4,6 +4,7 @@ This project packages the most common free fonts with
 [fontnik](https://github.com/mapbox/fontnik) so you don't have to
 worry about [SDL](https://www.mapbox.com/blog/text-signed-distance-fields/)
 and [gzipped PBFs](https://github.com/mapbox/mapbox-gl-js/issues/830).
+The fonts are deployed to https://free.tilehosting.com/ which also supports concatenating fonts.
 
 ## Configure Mapbox GL Style JSON
 
