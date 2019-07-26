@@ -1,6 +1,6 @@
 {
   "name": "@geops/mapbox-gl-fonts",
-  "version": "0.0.0",
+  "version": "3.0.0",
   "authors": [
     "Petr Sloup <petr.sloup@klokantech.com>"
   ],
