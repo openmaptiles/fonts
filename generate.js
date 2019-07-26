@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var fs = require('fs'),
     path = require('path');
 
@@ -107,7 +108,8 @@ var doFonts = function(dir, fonts) {
 };
 
 var todo = [];
-fs.readdirSync('.').forEach(function(dir) {
+fs.readdirSync(__dirname).forEach(function(dir) {
+  dir = path.resolve(__dirname, dir)
   if (fs.lstatSync(dir).isDirectory()) {
     var fonts;
     try {
