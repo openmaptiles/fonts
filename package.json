@@ -1,11 +1,15 @@
 {
   "name": "@geops/mapbox-gl-fonts",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "authors": [
     "Petr Sloup <petr.sloup@klokantech.com>"
   ],
   "bin": {
     "generate-mapbox-gl-fonts": "./generate.js"
+  },
+  "scripts": {
+    "publish:beta": "yarn publish:public --tag beta",
+    "publish:public": "yarn version && git push origin HEAD && yarn publish"
   },
   "dependencies": {
     "@mapbox/glyph-pbf-composite": "0.0.3",
